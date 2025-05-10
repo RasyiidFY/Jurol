@@ -1,12 +1,12 @@
 .article-header {
-  background-color: #640d5f;
+  background-color: black;
   color: #fff;
   padding: 20px 0;
   
 }
 
 .article-content {
-  padding: 60px 20px;
+  padding: 60px 60px;
   background-color: #fff;
   border-radius: 10px;
   margin-top: 20px;
@@ -17,6 +17,7 @@
   font-size: 32px;
   margin-bottom: 10px;
   font-weight: 700;
+  color: #333;
 }
 
 .article-meta {
@@ -29,14 +30,41 @@
   width: 100%;
   max-height: 400px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 25px;
+}
+
+.pre-article {
+  font-style: italic;
+  color: #444;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.article-body h3 {
+  color: #444;
+  margin-bottom: 10px;
 }
 
 .article-body p {
   margin-bottom: 20px;
   font-size: 16px;
   color: #444;
+}
+
+span {
+  font-weight: 700;
+}
+
+.article-body ol {
+  color: #444;
+  text-align: justify;
+  margin-left: 25px;
+}
+
+.article-body ol li {
+  margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .article-body blockquote {
